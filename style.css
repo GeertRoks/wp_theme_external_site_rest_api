@@ -1,0 +1,20 @@
+/*
+Theme Name: External Site with WP REST API
+Author: Geert Roks
+Author URI: https://geertroks.com
+Description: This theme contains an iframe to your external site using the wp REST API.
+Version: 1.0.0
+*/
+
+.iframe-wrapper {
+	background-color: #374151;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.external-site-view {
+	height: 90vh;
+	width: 90vw;
+	border: solid 1px black;
+}
