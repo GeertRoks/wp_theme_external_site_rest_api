@@ -7,6 +7,6 @@
         <?php wp_head(); ?>
     </head>
     <body class="iframe-wrapper"> 
-        <iframe class="external-site-view" src="http://localhost:3000">
+        <iframe class="external-site-view" src="<?php echo get_env('FRONTEND_URL'); ?>">
     </body>
 </html>
