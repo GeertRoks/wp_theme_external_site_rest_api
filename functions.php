@@ -1,4 +1,5 @@
 <?php
+add_theme_support( 'post-thumbnails' );
 
 function extsite_restapi_theme_support() {
 }
